@@ -22,7 +22,7 @@ const Home = () => {
 
   return (
     <div className="container">
-      <h1 className="header">Book for your favourite movies now</h1>
+      <h1 className="header">BookEase</h1>
       <ul className="show-list">
         {shows.map(show => (
           <li key={show.id} className="show-item">
