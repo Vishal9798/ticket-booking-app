@@ -110,7 +110,7 @@ const BookSeats = () => {
         </div>
       </div>
       <div className="paypal-button-container">
-        <div className="buttons" ref={paypalContainerRef}></div> {/* Ensure this div is correctly styled */}
+        <div className="buttons" ref={paypalContainerRef}></div> 
       </div>
     </div>
   );
